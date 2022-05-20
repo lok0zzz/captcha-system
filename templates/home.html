@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Captcha</title>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+        <script>
+            var res = JSON.parse(' {{ res | safe }} ');
+            texto = res.texto
+
+            function display_image(src, margin) {
+                var a = document.createElement("img");
+                a.src = src;
+                a.margin = margin;
+
+                document.body.appendChild(a);
+            }
+
+            display_image(`static/${texto}.png`, '400px')
+
+        </script>
+    </body>
+</html>
