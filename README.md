@@ -2,7 +2,7 @@
 
 Um sistema de geração de captcha utilizando Python. (O site é apenas para mostrar um exemplo prático)
 
-<img src="[[https://imgbox.com/PKUjDHhb](https://images2.imgbox.com/72/03/PKUjDHhb_o.png)](https://images2.imgbox.com/72/03/PKUjDHhb_o.png)"></img>
+<img src="https://images2.imgbox.com/72/03/PKUjDHhb_o.png"></img>
 
 ## 🔧 Linguagens utilizadas:
 
